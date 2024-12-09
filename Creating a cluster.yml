@@ -1,0 +1,16 @@
+Creating a cluster
+
+kind create cluster --name cluster1
+kind create cluster --config config.yaml --name cluster2
+
+
+Deleteing a cluster
+
+kind delete cluster --name cluster1
+
+
+view cluster
+
+kind get clusters
+kubectl config get-contexts
+
